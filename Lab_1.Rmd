@@ -79,7 +79,7 @@ automáticamente TRUE y FALSE se convirtieron en 1 y 0 respectivamente, por eso 
 subset(students_grades_df, students_grades_df$Accounting>80 & students_grades_df$Legal_age==1)
 ```
 
-6.1
+6.1 y 6.2
 ```{r}
 
 students_projection <- function(df, nRows, nCols){
@@ -98,7 +98,7 @@ students_projection <- function(df, nRows, nCols){
 
 ```
 
-6.2
+6.3
 
 ```{r}
 students_projection(students_grades_df, 5, 4)
