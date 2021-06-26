@@ -60,7 +60,7 @@ result_students
 
 ```{r}
 
-selected_elements <- result_students[c(1,3,4), c(2,4)]
+selected_elements <- result_students[c(1,3,5), c(2,4)]
 print(selected_elements)
 
 ```
